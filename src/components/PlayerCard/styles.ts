@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components/native";
 import { MaterialIcons } from "@expo/vector-icons";
 export const Container = styled.View`
-  flex: 1;
+  width: 100%;
   height: 56px;
   background-color: ${({ theme }) => theme.COLORS.GRAY_500};
   border-radius: 6px;
